@@ -1,0 +1,76 @@
+{
+  "selections": [
+    {
+      "id": "carMake",
+      "label": "Make:",
+      "cssClass": "input-select column is-10",
+      "name": "make",
+      "inputType": "select",
+      "display": true,
+      "options": [
+        { "id": "audi", "name": "Audi" },
+        { "id": "bmw", "name": "BMW" },
+        { "id": "vauxhal", "name": "Vauxhal" },
+        { "id": "mercedes", "name": "Mercedes" },
+        { "id": "peugeot", "name": "Peugeot" },
+        { "id": "renault", "name": "Renault" }
+      ],
+      "placeholder": "Please select a car make",
+      "button": {
+        "title": "Next",
+        "id": "doneNextBtn",
+        "topCss": "buttons is-right",
+        "css": "button is-default",
+        "method": {
+          "name": "submitBtn",
+          "action": "completeFormAction"
+        }
+      }
+    },
+    {
+      "id": "carColour",
+      "label": "Colour:",
+      "cssClass": "input-select column is-10",
+      "name": "colour",
+      "inputType": "select",
+      "display": false,
+      "options": [
+        { "id": "blue", "name": "Blue" },
+        { "id": "red", "name": "Red" },
+        { "id": "black", "name": "Black" },
+        { "id": "orange", "name": "Orange" }
+      ],
+      "placeholder": "Please select a car colour",
+      "button": {
+        "title": "Next",
+        "id": "doneNextBtn",
+        "topCss": "buttons is-right",
+        "css": "button is-default",
+        "method": {
+          "name": "submitBtn",
+          "action": "completeFormAction"
+        }
+      }
+    },
+    {
+      "id": "carCode",
+      "label": "Code:",
+      "cssClass": "input-text column is-10",
+      "name": "code",
+      "inputType": "text",
+      "display": false,
+      "options": [],
+      "placeholder": "Please select a car code",
+      "button": {
+        "title": "Done",
+        "id": "doneNextBtn",
+        "topCss": "buttons is-right",
+        "css": "button is-success",
+        "method": {
+          "name": "submitBtn",
+          "action": "completeFormAction"
+        }
+      }
+    }
+  ]
+}
